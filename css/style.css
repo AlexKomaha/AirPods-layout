@@ -208,3 +208,59 @@ body {
   max-width: 400px;
   margin: 0 auto;
 }
+
+.audio {
+  background-image: url(../img/audio-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.audio__inner {
+  min-height: 220vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.audio__box {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40vh;
+}
+
+.audio__text {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000;
+  background-color: #fff;
+  padding: 15px 58px;
+  border-radius: 30px;
+  margin-top: 25px;
+}
+
+
+.footer {
+  padding: 50px 0 40px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+}
+
+.footer__text {
+  padding: 20px 0;
+}
+
+.footer__list {
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 20px;
+}
