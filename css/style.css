@@ -46,6 +46,14 @@ body {
   margin-bottom: 20px;
 }
 
+.content-item {
+  display: none;
+}
+
+.content-item.content-item__active {
+  display: inline-block;
+}
+
 .header {
   min-height: 100vh;
   position: relative;
@@ -87,9 +95,26 @@ body {
   right: 0;
   bottom: 0;
   width: 100%;
-  background: linear-gradient(180deg, #CADBEB 0%, rgba(235, 235, 235, 0.00) 100%);
   z-index: -2;
 }
+
+.header__content-images:has(.color--blue.content-item__active)::before {
+  background: linear-gradient(180deg, #CADBEB 0%, rgba(235, 235, 235, 0.00) 100%);
+}
+.header__content-images:has(.color--red.content-item__active)::before {
+  background: linear-gradient(180deg, #F3D6D1 0%, rgba(235, 235, 235, 0.00) 100%);
+}
+.header__content-images:has(.color--green.content-item__active)::before {
+  background: linear-gradient(180deg, #DDEAD9 0%, rgba(235, 235, 235, 0.00) 100%);
+}
+.header__content-images:has(.color--white.content-item__active)::before {
+  background: linear-gradient(180deg, #FAFAFA 0%, rgba(235, 235, 235, 0.00) 100%);
+}
+.header__content-images:has(.color--black.content-item__active)::before {
+  background: linear-gradient(180deg, #B6B6B6 0%, rgba(235, 235, 235, 0.00) 100%);
+}
+
+
 
 .title {
   font-size: 210px;
@@ -148,6 +173,10 @@ body {
   border-radius: 20px;
   border: 1px solid #777;
   padding: 40px 45px;
+}
+
+.choose-color__btn--active {
+  display: none;
 }
 
 .composition {
@@ -266,13 +295,102 @@ body {
   flex-wrap: wrap;
 }
 
+.container-bg-color {
+  background: linear-gradient(100deg, #CADBEB 0%, rgba(235, 235, 235, 0.00) 100%);
+}
+
+.corporate-contacts {
+  border-bottom: 1px solid #d2d2d7;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.contacts__title {
+  font-size: 36px;
+  font-weight: 500;
+  max-width: 600px;
+  margin: 0 80px 20px;
+}
+
+.contact-content__america {
+  margin-left: 80px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.contact-paragraph {
+  font-size: 19px;
+  font-weight: 400;
+  font-weight: bold;
+  letter-spacing: .012em;
+}
+
+.contact-info {
+  padding-bottom: 20px;
+  letter-spacing: .012em;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.contact-usa {
+  margin-right: auto;
+}
+
+.contact-canada,
+.contact-mexico {
+  margin-left: 20px;
+}
+
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-support-li {
+  letter-spacing: .012em;
+}
+
+.contact-support-li p {
+  color: rgb(35, 23, 143);
+}
+
+.contact-lost {
+  margin-left: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-support {
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+
+.contact-content__support {
+  margin-left: 80px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  border-bottom: 1px solid #d2d2d7;
+  margin-bottom: 20px;
+}
+
+
+
 @media (max-width: 1469px) {
   .header__content-images img {
     max-width: 100%;
   }
   .title {
     font-size: 180px;
-    transform: translate(100px,10px);
+    top: 154px;
+    left: 237px;
   }
   .choose-color__list {
     flex-wrap: wrap;
