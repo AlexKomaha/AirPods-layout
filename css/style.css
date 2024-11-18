@@ -481,14 +481,22 @@ body {
 }
 
 .color-btn:hover {
-  border: 3px solid #0071e3;
+  border: 2px solid #0071e3;
   border-radius: 10px;
+}
+
+.purchase {
+  padding-bottom: 20px;
+}
+
+.purchase-right {
+  margin-right: -20px;
 }
 
 .purchase-summary {
   border-radius: 10px;
   text-align: center;
-  padding: 10px 0 10px;
+  padding: 20px 0 20px;
   background-color: rgba(162, 160, 160, 0.2);
   line-height: 3;
 }
@@ -509,9 +517,31 @@ body {
   margin-top: 10px;
   font-size: 14px;
   font-weight: bold;
-  color: #0071e3;
+  color: #178b2a;
 }
 
+.apple-music {
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.music-info {
+  margin-top: 20px;
+  font-size: 48px;
+  font-weight: 600;
+  text-shadow: 3px 1px 20px rgba(0, 0, 0, 0.2);
+}
+
+.music-info:hover {
+  color: #b56e6e;
+}
+
+.music-album {
+  border-radius: 10px;
+  box-shadow: 3px 1px 20px rgba(0, 0, 0, 0.8);
+}
 
 @media (max-width: 1469px) {
   .header__content-images img {
