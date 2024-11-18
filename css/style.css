@@ -324,11 +324,20 @@ body {
   font-weight: 400;
   font-weight: bold;
   letter-spacing: .012em;
+  margin-bottom: 10px;
 }
 
 .contact-info {
   padding-bottom: 20px;
   letter-spacing: .012em;
+}
+
+.contact-info .nowrap {
+  margin-left: 20px;
+}
+
+.contact-support-li .nowrap {
+  margin-left: 20px;
 }
 
 .nowrap {
@@ -354,7 +363,7 @@ body {
   letter-spacing: .012em;
 }
 
-.contact-support-li p {
+.contact-support-li .apple-retail {
   color: rgb(35, 23, 143);
 }
 
@@ -362,7 +371,10 @@ body {
   margin-left: 120px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+}
+
+.contact-bottom {
+  margin-bottom: 10px;
 }
 
 .contact-support {
@@ -370,6 +382,7 @@ body {
   display: flex;
   flex-direction: column;
   padding-bottom: 10px;
+  min-width: 400px;
 }
 
 .contact-content__support {
@@ -381,6 +394,34 @@ body {
   margin-bottom: 20px;
 }
 
+.corporate-adress {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.corporate-text {
+  margin-bottom: 20px;
+}
+
+.purchase-wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.buystip {
+  display: flex;
+  max-width: 500px;
+  gap: 10px;
+  padding-bottom: 10px;
+  font-size: 12px;
+}
+
+.purchase-right h2 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
 
 
 @media (max-width: 1469px) {
