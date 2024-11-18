@@ -24,3 +24,14 @@ function open(evt) {
     activeImage.classList.add("selected-image__active");
   }
 }
+
+// Customize the Buy Button Click:
+document.getElementById("add-to-bag-btn").addEventListener("click", function() {
+  const message = document.getElementById("added-message");
+
+  message.classList.remove("hidden");
+
+  setTimeout(() => {
+    message.classList.add("hidden");
+  }, 8000);
+})
