@@ -403,6 +403,27 @@ body {
   margin-bottom: 20px;
 }
 
+.purchase-wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.buystip {
+  display: flex;
+  max-width: 500px;
+  gap: 10px;
+  padding-bottom: 10px;
+  font-size: 12px;
+}
+
+.purchase-right h2 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+
 @media (max-width: 1469px) {
   .header__content-images img {
     max-width: 100%;
