@@ -37,7 +37,11 @@
       <section class="purchase">
         <div class="purchase-wrapper">
           <div class="purchase-left">
-            <img src="img/airpods-blue.png" width="488" height="458" alt="">
+            <img class="selected-image selected-image__active" data-color="blue" src="img/airpods-blue.png" width="488" height="458" alt="">
+            <img class="selected-image" data-color="black" src="img/airpods-black.png" width="488" height="458" alt="">
+            <img class="selected-image" data-color="green" src="img/airpods-green.png" width="488" height="458" alt="">
+            <img class="selected-image" data-color="red" src="img/airpods-red.png" width="488" height="458" alt="">
+            <img class="selected-image" data-color="white" src="img/airpods-white.png" width="488" height="458" alt="">
             <div class="img-info">
               <ul class="buystip">
                 <li class="buystrip-item">
@@ -56,7 +60,21 @@
             <h2>Buy AirPods Max</h2>
             <h3>Color</h3>
             <div class="right-color">
-
+              <button class="color-btn color-btn__active" data-color="blue">
+                <img src="img/btn-blue.png" alt="">
+              </button>
+              <button class="color-btn" data-color="black">
+                <img src="img/btn-black.png" alt="">
+              </button>
+              <button class="color-btn" data-color="green">
+                <img src="img/btn-green.png" alt="">
+              </button>
+              <button class="color-btn" data-color="white">
+                <img src="img/btn-white.png" alt="">
+              </button>
+              <button class="color-btn" data-color="red">
+                <img src="img/btn-red.png" alt="">
+              </button>
             </div>
 
             <div class="purchase-summary">
@@ -110,5 +128,6 @@
     </div>
   </footer>
 <script src="js/main.js"></script>
+<script src="js/buy-page.js"></script>
 </body>
 </html>
