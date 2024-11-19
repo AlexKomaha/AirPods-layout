@@ -549,15 +549,20 @@ body {
 
 .product {
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .product-title {
   font-size: 154px;
   font-weight: 700;
+  margin-top: -135px;
+  position: absolute;
+
 }
 
 .product-img {
   height: 620px;
+  z-index: 2;
 }
 
 .product-text {
@@ -567,10 +572,10 @@ body {
 
 .lear-more-btn {
   cursor: pointer;
-  border-radius: 10px;
-  background-color: #0071e3;
+  border-radius: 20px;
+  background-color: #000;
   padding: 10px;
-  border: 1px solid #0071e3;
+  border: 1px solid #000;
 }
 
 .lear-more-btn p {
@@ -579,15 +584,41 @@ body {
 
 .product-buy-btn {
   cursor: pointer;
-  border-radius: 15px;
+  border-radius: 20px;
   width: 60px;
   padding: 10px;
-  border: 1px solid #0071e3;
-  background-color:  #ffffff;
+  border: 1px solid #000;
+  background-color: #DDEAD9;
 }
 
 .product-buy-btn p {
-  color: #0071e3;
+  color: #000;
+}
+
+.content-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.text-detail {
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-right: 650px;
+}
+
+.btn-detail {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 10px;
 }
 
 @media (max-width: 1469px) {
