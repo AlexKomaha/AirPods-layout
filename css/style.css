@@ -307,6 +307,10 @@ body {
   background: linear-gradient(100deg, #CADBEB 0%, rgba(235, 235, 235, 0.00) 100%);
 }
 
+.container-bg-color-product {
+  background: linear-gradient(180deg, #DDEAD9 0%, rgba(235, 235, 235, 0.00) 100%);
+}
+
 .corporate-contacts {
   border-bottom: 1px solid #d2d2d7;
   margin-bottom: 20px;
@@ -541,6 +545,49 @@ body {
 .music-album {
   border-radius: 10px;
   box-shadow: 3px 1px 20px rgba(0, 0, 0, 0.8);
+}
+
+.product {
+  text-align: center;
+}
+
+.product-title {
+  font-size: 154px;
+  font-weight: 700;
+}
+
+.product-img {
+  height: 620px;
+}
+
+.product-text {
+  font-size: 21px;
+  padding-bottom: 10px;
+}
+
+.lear-more-btn {
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #0071e3;
+  padding: 10px;
+  border: 1px solid #0071e3;
+}
+
+.lear-more-btn p {
+  color: #ffffff;
+}
+
+.product-buy-btn {
+  cursor: pointer;
+  border-radius: 15px;
+  width: 60px;
+  padding: 10px;
+  border: 1px solid #0071e3;
+  background-color:  #ffffff;
+}
+
+.product-buy-btn p {
+  color: #0071e3;
 }
 
 @media (max-width: 1469px) {
