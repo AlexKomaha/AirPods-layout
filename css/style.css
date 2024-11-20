@@ -631,6 +631,11 @@ body {
   margin-bottom: 40px;
 }
 
+.advantages-slider {
+  overflow: hidden;
+  position: relative;
+}
+
 .advantages-list {
   display: flex;
   justify-content: space-between;
@@ -640,6 +645,8 @@ body {
 
 .advantages-card {
   position: relative;
+  margin-right: 20px;
+  width: 412px;
 }
 
 .card-content {
@@ -662,7 +669,16 @@ body {
 
 .advantages-img {
   border-radius: 15px;
-  margin-right: 20px;
+}
+
+.slider-btn {
+  margin-top: 15px;
+  margin-right: 15px;
+  background-color: #000;
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 10px;
+  width: 35px;
 }
 
 @media (max-width: 1469px) {
