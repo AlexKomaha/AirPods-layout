@@ -738,6 +738,49 @@ body {
   .title--m {
     padding-left: 15px;
   }
+  .title-right {
+    font-size: 28px;
+  }
+  .purchase-right {
+    margin-right: 0;
+  }
+  .music-album {
+    width: 70%;
+    height: 100%;
+  }
+  .music-info {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 790px) {
+  .right-color {
+    flex-direction: column;
+    align-items: center;
+  }
+  .color-btn {
+    border: 0px solid #a2a0a0;
+  }
+  .color-btn img {
+    width: 130px;
+  }
+  .title-right {
+    text-align: center;
+  }
+  .delivery-list {
+    font-size: 15px;
+  }
+  .color-btn:hover {
+    border: 0px;
+  }
+  .buystip {
+    flex-direction: column;
+    gap: 130px;
+    font-size: 22px;
+  }
+  .purchase-left {
+    padding-top: 170px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -766,6 +809,48 @@ body {
   }
   .title {
     font-size: 58px;
+  }
+  .color-btn img {
+    width: 84px;
+  }
+  .purchase-right h2 {
+    font-size: 20px;
+  }
+  .selected-image {
+    width: 450px;
+    height: 450px;
+  }
+  .buystip {
+    gap: 85px;
+    font-size: 13px;
+  }
+  .buy__btn {
+    padding: 10px 5px;
+    width: 50%;
+  }
+}
+
+@media (max-width: 625px) {
+  .color-btn img {
+    width: 60px;
+  }
+  .selected-image {
+    width: 315px;
+    height: 305px;
+  }
+  .buystip {
+    gap: 55px;
+  }
+  .purchase-summary {
+    line-height: 1.5;
+  }
+  .music-info {
+    font-size: 25px;
+  }
+  .music-album {
+    width: 125px;
+    height: 125px;
+    margin-left: 80px;
   }
 }
 
@@ -805,6 +890,35 @@ body {
   }
 }
 
+@media (max-width: 460px) {
+  .selected-image {
+    width: 220px;
+    height: 220px;
+  }
+  .right-color {
+    gap: 5px;
+  }
+  .delivery-info h3 {
+    font-size: 15px;
+  }
+  .delivery-list {
+    font-size: 10px;
+  }
+  .price-info {
+    font-size: 13px;
+  }
+  .buy__btn {
+    font-size: 8px;
+  }
+  .music-info {
+    font-size: 11px;
+  }
+  .music-album {
+    width: 100px;
+    height: 100px;
+  }
+}
+
 @media (max-width: 414px) {
   .main__title {
     font-size: 28px;
@@ -817,6 +931,18 @@ body {
   }
   .case img {
     max-width: 100%;
+  }
+  #added-message {
+    font-size: 8px;
+  }
+  .music-album {
+    width: 100px;
+    height: 100px;
+  }
+  .buy__btn {
+    font-size: 5px;
+    padding: 5px 1px;
+    width: 50%;
   }
 }
 
