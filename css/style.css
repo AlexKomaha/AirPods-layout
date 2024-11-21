@@ -751,6 +751,13 @@ body {
   .music-info {
     font-size: 40px;
   }
+  .contact-content__support {
+    margin-left: 30px;
+    gap: 1px;
+  }
+  .contact-lost {
+    margin-left: 60px;
+  }
 }
 
 @media (max-width: 790px) {
@@ -852,6 +859,25 @@ body {
     height: 125px;
     margin-left: 80px;
   }
+  .contact-content__support {
+    display: grid;
+    gap: 20px;
+  }
+  .contact-support {
+    padding: 20px;
+  }
+  .contact-lost {
+    margin-left: 1px;
+  }
+  .contact-content__america {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 590px) {
+  .contact-content__america {
+    display: grid;
+  }
 }
 
 @media (max-width: 560px) {
@@ -917,6 +943,16 @@ body {
     width: 100px;
     height: 100px;
   }
+  .contacts__title {
+    font-size: 24px;
+  }
+  .contact-content__america {
+    margin-left: 10px;
+    font-size: 13px;
+  }
+  .contact-content__support {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 414px) {
@@ -944,10 +980,51 @@ body {
     padding: 5px 1px;
     width: 50%;
   }
+  .contacts__title {
+    font-size: 19px;
+  }
+  .contact-content__america {
+    margin-left: 10px;
+    font-size: 9px;
+  }
+  .contact-content__support {
+    font-size: 9px;
+  }
+  .contact-content__support {
+    margin: auto;
+  }
+  .contact-lost {
+    margin-left: 2px;
+    padding: 10%;
+  }
+  .corporate-contacts {
+    padding: 10%;
+  }
+  .contacts__title {
+    font-size: 15px;
+  }
+  .contact-paragraph {
+    font-size: 11px;
+  }
+  .contact-support {
+    padding: 10%;
+  }
 }
 
 @media (max-width: 404px) {
   .title {
     font-size: 50px;
+  }
+}
+
+@media (max-width: 455px) {
+  .contact-support {
+    padding: 20%;
+  }
+  .contact-lost {
+    padding: 20%;
+  }
+  .contacts__title {
+    font-size: 9px;
   }
 }
