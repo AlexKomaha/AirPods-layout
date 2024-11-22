@@ -955,6 +955,16 @@ body {
   }
 }
 
+@media (max-width: 455px) {
+  .contacts__title {
+    font-size: 24px;
+    text-align: center;
+  }
+  .contact-content__support {
+    margin-left: -10px;
+  }
+}
+
 @media (max-width: 414px) {
   .main__title {
     font-size: 28px;
@@ -995,10 +1005,8 @@ body {
   }
   .contact-lost {
     margin-left: 2px;
-    padding: 10%;
-  }
-  .corporate-contacts {
-    padding: 10%;
+    text-align: center;
+    margin-right: 10%;
   }
   .contacts__title {
     font-size: 15px;
@@ -1006,25 +1014,16 @@ body {
   .contact-paragraph {
     font-size: 11px;
   }
-  .contact-support {
-    padding: 10%;
-  }
+
 }
 
 @media (max-width: 404px) {
   .title {
     font-size: 50px;
   }
-}
-
-@media (max-width: 455px) {
-  .contact-support {
-    padding: 20%;
-  }
   .contact-lost {
-    padding: 20%;
-  }
-  .contacts__title {
-    font-size: 9px;
+    margin-left: 2px;
+    text-align: center;
+    margin-right: 10%;
   }
 }
