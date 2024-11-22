@@ -1014,7 +1014,18 @@ body {
   .contact-paragraph {
     font-size: 11px;
   }
-
+  .purchase-wrapper {
+    display: block;
+  }
+  .purchase-left {
+    padding-top: 10px;
+  }
+  .selected-image {
+    margin-left: 20%;
+  }
+  .buystip {
+    gap: 20px;
+  }
 }
 
 @media (max-width: 404px) {
@@ -1025,5 +1036,14 @@ body {
     margin-left: 2px;
     text-align: center;
     margin-right: 10%;
+  }
+  .purchase-wrapper {
+    display: block;
+  }
+  .purchase-left {
+    padding-top: 10px;
+  }
+  .selected-image {
+    margin-left: 20%;
   }
 }
