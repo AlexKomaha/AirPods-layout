@@ -912,6 +912,10 @@ body {
   .contact-content__america {
     gap: 10px;
   }
+  .apple-music {
+    display: flex;
+    align-items: center;
+  }
 }
 
 @media (max-width: 590px) {
@@ -1076,6 +1080,9 @@ body {
   .buystip {
     gap: 20px;
   }
+  .advantages-list {
+    gap: 28px;
+  }
 }
 
 @media (max-width: 404px) {
@@ -1095,5 +1102,8 @@ body {
   }
   .selected-image {
     margin-left: 20%;
+  }
+  .advantages-list {
+    gap: 28px;
   }
 }
