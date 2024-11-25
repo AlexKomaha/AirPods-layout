@@ -835,6 +835,46 @@ body {
     padding: 10px 5px;
     width: 50%;
   }
+  .apple-music {
+    display: block;
+  }
+  .music-left {
+    padding-bottom: 30px;
+  }
+  .product-text {
+    font-size: 9px;
+  }
+  .advantages-img {
+    height: 420px;
+    width: 260px;
+  }
+  .advantages-card {
+    margin-right: 67px;
+  }
+}
+
+@media (max-width: 708px) {
+  .btn-detail {
+    text-align: center;
+  }
+  .text-detail {
+    text-align: center;
+    display: block;
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  .advantages-title  {
+    font-size: 42px;
+  }
+  .product-img {
+    height: 442px;
+  }
+  .product-title {
+    font-size: 90px;
+  }
+  .advantages-card {
+    margin-right: -30px;
+  }
 }
 
 @media (max-width: 625px) {
@@ -878,6 +918,10 @@ body {
   .contact-content__america {
     display: grid;
   }
+  .advantages-img {
+    height: 378px;
+    width: 219px;
+  }
 }
 
 @media (max-width: 560px) {
@@ -913,6 +957,12 @@ body {
   }
   .header__top {
     align-items: flex-start;
+  }
+  .product-img {
+    height: 358px;
+  }
+  .music-album {
+    margin-left: auto;
   }
 }
 
